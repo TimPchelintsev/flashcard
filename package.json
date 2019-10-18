@@ -15,11 +15,7 @@
       [
         "@pika/plugin-bundle-web",
         {
-          "namedExports": {
-            "node_modules/esrever/esrever.js": [
-              "reverse"
-            ]
-          }
+          "minify": false
         }
       ]
     ]
